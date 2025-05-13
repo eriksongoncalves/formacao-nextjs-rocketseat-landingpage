@@ -1,0 +1,14 @@
+build
+dist
+.git
+.next
+node_modules
+.env
+.env.*
+package-lock.json
+
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
