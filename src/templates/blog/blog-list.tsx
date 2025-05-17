@@ -1,6 +1,8 @@
 import { useRouter } from "next/router"
 
 import { Search } from "@/components/search"
+import { PostCard } from "@/components/post-card"
+import { PostGridCard } from "@/components/post-grid-card"
 
 export function BlogList() {
   const router = useRouter()
@@ -11,7 +13,7 @@ export function BlogList() {
 
   return (
     <div className="flex h-full flex-grow flex-col py-24">
-      <header className="">
+      <header className="pb-14">
         <div className="container flex flex-col items-start justify-between space-y-6 md:flex-row md:items-end lg:items-end">
           <div className="flex flex-col gap-4 md:px-0">
             {/* TAG */}
@@ -30,6 +32,19 @@ export function BlogList() {
       </header>
 
       {/* Listagem de posts */}
+      <PostGridCard>
+        <PostCard
+          title="Transformando seu negócio em uma loja virtual"
+          description="Se você está buscando uma maneira simples e eficaz de vender seus produtos online..."
+          date="20/12/2024"
+          slug="transformando"
+          image="/assets/primeiro-post.png"
+          author={{
+            avatar: "/customer-01.png",
+            name: "Aspen Dokidis"
+          }}
+        />
+      </PostGridCard>
     </div>
   )
 }
