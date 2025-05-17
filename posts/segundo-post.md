@@ -22,4 +22,4 @@ Veja o que nossa plataforma oferece:
 
 **Suporte especializado**: Nossa equipe de suporte está sempre disponível para ajudar você com qualquer dúvida ou desafio.
 
-Está pronto para colocar seus produtos no mundo? Com o Site.Set, criar sua loja online é rápido, simples e acessível. Desde a configuração do site até a finalização da compra, oferecemos todas as ferramentas necessárias para você vender com sucesso.
+Está pronto para colocar seus produtos no mundo? Com o Site.Set, criar sua loja online é rápido, simples e acessível. Desde a configuração do site até a finalização da compra, oferecemos todas as ferramentas necessárias para você vender com sucesso. 
